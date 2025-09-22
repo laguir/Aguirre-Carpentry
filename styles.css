@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: black;
+}
+
+.header {
+    position: fixed;         
+    top: 0;               
+    left: 0;
+    right: 0;
+    background-color: black; 
+    z-index: 1000;         
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.site-title {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-left: auto;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(29, 0, 245);
+    font-weight: bold;
+}
+
+#hero {
+    padding-top: 6rem; 
+    min-height: 100vh;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+
